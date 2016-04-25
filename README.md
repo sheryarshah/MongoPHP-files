@@ -1,6 +1,6 @@
 # MongoPHP-files
 
-We need to install 3 things:
+#We need to install 3 things:
 
 1) MongoDB
 
@@ -8,7 +8,7 @@ We need to install 3 things:
 
 3) Mongo PHP Driver
   
-First MongoDB:
+#First MongoDB:
 
   Installing MongoDB on Linux Server:
   
@@ -16,7 +16,7 @@ First MongoDB:
   
     https://docs.mongodb.org/v3.0/tutorial/install-mongodb-on-ubuntu/
   
-Second, setting up PHP Server:
+#Second, setting up PHP Server:
 
   Install Apache:
   
@@ -69,7 +69,7 @@ Second, setting up PHP Server:
     
   It should display php configurations
 
-Third, install mongo php driver:
+#Third, install mongo php driver:
 
   We are using mongodb legacy php driver:
   
