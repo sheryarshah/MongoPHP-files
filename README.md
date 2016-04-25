@@ -1,9 +1,9 @@
 # MongoPHP-files
 
 We need to install 3 things:
-  1) MongoDB
-  2) Install Apache PHP
-  3) Mongo PHP Driver
+1) MongoDB
+2) Install Apache PHP
+3) Mongo PHP Driver
   
 First MongoDB:
 
@@ -15,8 +15,10 @@ First MongoDB:
 Second, setting up PHP Server:
 
   Install Apache:
-    sudo apt-get update
-    sudo apt-get install apache2
+  
+  sudo apt-get update
+  
+  sudo apt-get install apache2
   
   To check if Apache is installe, go to browser and type in the server's ip address. (May have to specify port) (eg. http://123.456.678:8080). If installed correctly you should apache page.
   To find server ip address, use following command:
