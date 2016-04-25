@@ -3,7 +3,7 @@
 We need to install 3 things:
   1) MongoDB
   2) Install Apache PHP
-  2) Mongo PHP Driver
+  3) Mongo PHP Driver
   
 First MongoDB:
 
