@@ -14,15 +14,15 @@ First MongoDB:
   
   Use the following link to install MongoDB on Ubuntu:
   
-  https://docs.mongodb.org/v3.0/tutorial/install-mongodb-on-ubuntu/
+    https://docs.mongodb.org/v3.0/tutorial/install-mongodb-on-ubuntu/
   
 Second, setting up PHP Server:
 
   Install Apache:
   
-  sudo apt-get update
+    sudo apt-get update
   
-  sudo apt-get install apache2
+    sudo apt-get install apache2
   
   To check if Apache is installed, go to browser and type in the server's ip address. (May have to specify port) (eg. http://123.456.678:8080). If installed correctly you should apache page.
   To find server ip address, use following command:
@@ -36,7 +36,9 @@ Second, setting up PHP Server:
     Answer "Yes" to install.
     
     Add php to the directory index:
+    
       sudo nano /etc/apache2/mods-enabled/dir.conf
+      
       Add index.php to the beginning of index files. So, it should look like this:
       <IfModule mod_dir.c>
       
